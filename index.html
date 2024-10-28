@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrega 1 - Esteban Rodriguez</title>
+</head>
+<body>
+    <h2>Calculadora de Pagos en Cuotas</h2>
+    <form id="cuotasForm">
+        <label for="monto">Monto total:</label>
+        <input type="number" id="monto" required><br><br>
+
+        <label for="cuotas">Número de cuotas:</label>
+        <input type="number" id="cuotas" required><br><br>
+
+        <label for="interes">Interés (% por cuota, opcional):</label>
+        <input type="number" id="interes"><br><br>
+
+        <button type="button" onclick="calcularCuotas()">Calcular</button>
+    </form>
+    <h3>Resultado:</h3>
+    <p id="resultado"></p>
+
+   <script src="./script.js"></script>
+</body>
+</html>
+
